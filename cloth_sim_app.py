@@ -74,7 +74,7 @@ def search_links(keyword):
     return res
 
 # Set page title
-st.title("Clothing Similarity Search")
+st.title("Clothing Similarity Search 🥼👕🔍")
 
 # Add a search bar
 search_input = st.text_input("Enter your search keyword")
