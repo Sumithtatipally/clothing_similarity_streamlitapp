@@ -1,5 +1,7 @@
 import streamlit as st
 
+import os
+os.environ['SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL'] = 'True'
 
 # from flask import Flask, jsonify, request
 import pandas as pd
